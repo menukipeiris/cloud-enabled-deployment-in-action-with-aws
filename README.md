@@ -52,6 +52,7 @@ This repository contains four projects:
 - Frontend: run `npm install` then `npm run dev` inside `frontend-app`.
 
 ## DEMO video in GCP
+https://drive.google.com/file/d/1-z_KF7RfwN6xAHHx4-xLRzZW8wlPZRbt/view?usp=sharing
 
 [//]: # (https://drive.google.com/file/d/1kdSdvgtsFPxfhydlG4eVuBA9jTNf9rLU/view?usp=sharing)
 
