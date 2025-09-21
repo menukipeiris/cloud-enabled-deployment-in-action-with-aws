@@ -57,8 +57,8 @@ public class Student {
         public void handleBeforeCreate(Student student) {
             if (studentRepository.existsById(student.getRegistrationNumber())) {
                 throw new ResponseStatusException(
-                    HttpStatus.CONFLICT,
-                    String.format("Student with registration number: %s already exists", student.getRegistrationNumber())
+                        HttpStatus.CONFLICT,
+                        String.format("Student with registration number: %s already exists", student.getRegistrationNumber())
                 );
             }
         }
